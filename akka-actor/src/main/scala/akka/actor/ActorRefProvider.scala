@@ -552,3 +552,4 @@ class LocalActorRefProvider(
 
   def getExternalAddressFor(addr: Address): Option[Address] = if (addr == rootPath.address) Some(addr) else None
 }
+
